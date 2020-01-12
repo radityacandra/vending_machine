@@ -1,0 +1,22 @@
+{
+    "name": "fast8/ng-micro-framework",
+    "description": "Official Fast8 PHP Framework",
+    "keywords": ["Vendor Machine"],
+    "homepage": "https://www.shortlyst.ai/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

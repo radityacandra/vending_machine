@@ -1,0 +1,6 @@
+#!/bin/sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
+composer install
+cd $DIR
+vendor/bin/phpunit --coverage-text --whitelist vending_machine.php tests/vending_machine_test.php
